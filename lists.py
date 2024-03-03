@@ -8,3 +8,6 @@ print(list[0] + list[1]) # getting a value from a specific index in a list is sa
 
 for x in list: ## print each value in a list can be done with a for loop (foreach)
     print(x) 
+
+for x in range(7):
+    print(x)
