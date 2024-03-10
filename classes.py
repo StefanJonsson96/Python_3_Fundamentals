@@ -11,6 +11,9 @@ class InheritanceTest(Robot_Dog): ## To inherit a class put it in ()
 
     def bark(self): ## You can override a method by just defining it again
         print('Overridden Woof woof')
+
+    def parentBark(self): ## with the super() syntax you can call a parent method
+        super().bark()
     
 myDog = Robot_Dog('Diezel', 'Rottweiler')
 myDog2 = InheritanceTest('Diezel', 'Rottweiler') ## We inherited the __init__ method so need to write our own one.
